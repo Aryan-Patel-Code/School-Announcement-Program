@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<hmtl>
+
+  <!-- Linking all files and Documents + Tab Name -->
+  <head>
+    <title>My School News</title>
+    <link rel="stylesheet" type="text/css" href="studentViewerPage.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="studentViewerPage2.js"></script>
+  </head>
+
+  <!-- The White Part Of The Header -->
+  <body onload="displayAnnouncement()">
+    <div id="whiteBack">
+      <h1>My School News </h1>
+      <h4><a href="studentOptionPage.html">Student Options 🔎</a></h4>
+      <button class="btn"><i class="fa fa-home"></i></button>
+    </div>
+
+    <!-- The Brown Navigation Of The Header -->
+    <div>
+      <strong>
+        <ul>
+          <li><a id="firstNav" href="teacherLogin.html">Teacher Login</a></li>
+          <li><a id="secondNav">School Calender</a></li>
+        </ul>
+      </strong><br>
+    </div>
+
+    <!--The Progress Bar (Tells users which pages they've gone through, and can click to go back)-->
+    <div>
+      <h5>Home</h5>
+      <h5 id="spacing"> > </h5>
+      <h5><a href="studentOptionPage.html">Student Option Page</a></h5>
+      <h5 id="spacing"> > </h5>
+      <h5><a href="studentViewerPage.html">Student Viewer Page</a></h5>
+      <hr>
+    </div>
+
+    <!--The Page Content Begins-->
+    <div id="page">
+      <form>
+        <h3 id="title">Student Viewer Page</h3>
+        <div id="content">
+          
+          <!--Reviews What Tags The User Searched For-->
+          <label>Search Results For:</label>
+          <p>Grade:</p>
+            <p id="resultOne" class="searchResult"></p>
+          <p>Gender:</p>
+            <p id="resultTwo" class="searchResult"></p>
+          <p>Club:</p>  
+            <p id="resultThree" class="searchResult"></p>
+          <br>
+          <br>
+          <br>
+          <!--Announcement One-->
+          <div id="Announce" class="Announce">
+           <p id="textOne" class="text"></p> 
+          </div> 
+          <br>
+          <!--Announcement Two-->
+          <div id="Announce" class="Announce">
+            <p id="textTwo" class="text"></p> 
+          </div>
+          <br>
+          <!--Announcement Three-->
+          <div id="Announce" class="Announce">
+           <p id="textThree" class="text"></p> 
+          </div>
+          <br>
+           <!--Announcement Four-->
+          <div id="Announce" class="Announce">
+            <p id="textFour" class="text"></p> 
+          </div>
+          <br> 
+          <!--Announcement Five-->
+          <div id="Announce" class="Announce">
+            <p id="textFive" class="text"></p> 
+          </div>
+          <br> 
+
+          <!--A Friendly Message Saying there are no announcements matching the tags-->
+          <h6 id="sorryMes">Sorry, no announcements meet your search tags.<br> Please try again with new tags.<br>🙂</h6>
+          <br>
+          <br>
+
+          <!--Load Five New Announcements-->
+          <button id="submit" onclick="optionDirect()">Next Page</button>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>  
+      </form>
+    </div>
+    <br>
+    <br>
+    <br>
+  </body>
+</hmtl>

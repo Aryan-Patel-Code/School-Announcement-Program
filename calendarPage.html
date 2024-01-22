@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<hmtl>
+
+  <!-- Linking all files and Documents + Tab Name -->
+  <head>
+    <title>My School News</title>
+    <link rel="stylesheet" type="text/css" href="calendarPage.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="announcementCreatorPage.js"></script>
+  </head>
+
+
+  <!-- The White Part Of The Header -->
+  <body onload="getAnnouncement()">
+    <div id="whiteBack">
+      <h1>My School News</h1>
+      <h4><a href="studentOptionPage.html">Student Options 🔎</a></h4>
+      <button class="btn"><a href="newsHomePage.html"><i class="fa fa-home"></i></a></button>
+    </div>
+
+    <!-- The Brown Navigation Bar In The Header-->
+    <div> 
+      <strong>
+        <ul>
+           <li><a id="firstNav" href="teacherLogin.html">Teacher Login</a></li>
+          <li><a id="secondNav" href="calendarPage.html">School Calender</a></li>
+        </ul>
+      </strong><br>
+    </div>
+
+    <!--The Progress Bar (Tells users which pages they've gone through, and can click to go back)-->
+    <div>
+      <h5><a href="newsHomePage.html">Home</a></h5>
+      <h5 id="spacing"> > </h5>
+      <h5><a href="calendarPage.html">School Calendar</a></h5>
+      <hr>
+    </div>
+
+    <!--The Page-->
+    <div id="page">
+      <form>
+        <h3 id="title">School Calendar</h3>
+        <div id="content">
+          <div id="calendar">
+
+          <!--Displays the Month/Year of the Calendar-->  
+          <div class="month">      
+            <ul>
+              <li class="prev">&#10094;</li>
+              <li class="next">&#10095;</li>
+              <li>
+                April<br>
+                <span style="font-size:18px">2021</span>
+              </li>
+            </ul>
+          </div>
+          
+          <!--Displays the Days-->
+          <ul class="weekdays">
+            <li>Mo</li>
+            <li>Tu</li>
+            <li>We</li>
+            <li>Th</li>
+            <li>Fr</li>
+            <li>Sa</li>
+            <li>Su</li>
+          </ul>
+          
+          <!--Displays the Dates-->
+          <ul class="days">  
+            <li><span class="lastMonth">29</span></li>
+            <li><span class="lastMonth">30</span></li>
+            <li><span class="lastMonth">31</span></li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li><span class="active">16</span></li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>  
+          </ul>
+            <br>
+            <br>        
+          </div>   
+        </div>  
+      </form>
+    </div>
+    <br>
+    <br>
+    <br>
+  </body>
+</hmtl>

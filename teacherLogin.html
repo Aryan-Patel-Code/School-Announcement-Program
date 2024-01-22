@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<hmtl>
+
+  <!-- Linking all files and Documents + Tab Name -->  
+  <head>
+    <title>My School News</title>
+    <link rel="stylesheet" type="text/css" href="teacherLogin.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="teacherLogin.js"></script>
+  </head>
+
+  <!-- The White Part Of The Header -->
+  <body>
+    <div id="whiteBack">
+      <h1>My School News </h1>
+      <h4><a href="studentOptionPage.html">Student Options 🔎</a></h4>
+      <button class="btn"><a href="newsHomePage.html"><i class="fa fa-home"></i></a></button>
+    </div>
+
+    <!-- The Brown Navigation Of The Header -->
+    <div>
+      <strong>
+        <ul>
+          <li><a id="firstNav" href="teacherLogin.html">Teacher Login</a></li>
+          <li><a id="secondNav" href="calendarPage.html">School Calender</a></li>
+        </ul>
+      </strong><br>
+    </div>
+
+    <!--The Progress Bar (Tells users which pages they've gone through, and can click to go back)-->
+    <div>
+      <h5><a href="newsHomePage.html">Home</a></h5>
+      <h5 id="spacing"> > </h5>
+      <h5><a href="teacherLogin.html">Teacher Login Page</a></h5>
+      <hr>
+    </div>
+
+    <!--Content of the Page-->
+    <div id="page">
+      <form>
+        <h3 id="title">Teacher Login Page</h3>
+        <div id="content">
+          <br>
+          <br>
+
+          <div id="login">
+            <p>Login Here</p>  
+
+            <!--Users Can Type Their Username-->
+            <label>Username</label><br>
+            <input type="text" name="username" placeholder="Enter Username" required id="htmlUsername">
+            <br>
+            <br>
+
+            <!--Users Can Type Their Password-->
+            <label>Password</label><br>
+            <input type="password" name="password" placeholder="Enter Password" required id="htmlPassword">
+            <br>
+            <br>
+            <br>
+            <br>
+            <!--Submitting the User Information-->
+            <button id="submit" onclick='loginDetail()'>Login</button>
+          </div>  
+          <br>
+          <br>
+          <br>
+        </div>  
+      </form>
+    </div>
+    <br>
+    <br>
+    <br>
+  </body>
+</hmtl>

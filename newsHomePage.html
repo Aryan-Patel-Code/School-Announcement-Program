@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<hmtl>
+
+  <!-- Linking all files and Documents + Tab Name -->
+  <head>
+    <title>My School News</title>
+    <link rel="stylesheet" type="text/css" href="newsHomePage.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="newsHomePage.js"></script>
+  </head>
+
+  <!-- The White Part Of The Header -->
+  <body onload="displayAllAnnouncement()">
+    <div id="whiteBack">
+      <h1>My School News </h1>
+      <h4><a href="studentOptionPage.html">Student Options 🔎</a></h4>
+      <button class="btn"><a href="newsHomePage.html"><i class="fa fa-home"></i></a></button>
+    </div>
+
+    <!-- The Brown Navigation Of The Header -->
+    <div>
+      <strong>
+        <ul>
+          <li><a id="firstNav" href="teacherLogin.html">Teacher Login</a></li>
+          <li><a id="secondNav" href="calendarPage.html">School Calender</a></li>
+        </ul>
+      </strong><br>
+    </div>
+
+    <!--The Progress Bar (Tells users which pages they've gone through, and can click to go back)-->
+    <div>
+      <h5><a href="newsHomePage.html">Home</a></h5>
+      <hr>
+    </div>
+
+    <!--The Page Content Begins-->
+    <h3 id="title"> News Home Page</h3>
+    <div id="page">
+      <form>
+        <div id="content">
+
+          <!-- Displays A Random Motivational Quote-->
+          <p id="quoteTitle">A Quote To Keep You Motivated</p>
+          <br>
+          <br>
+          <h3 id="quotes"></h3>
+          <br>
+          <br>
+          <br>
+          <br>
+          <hr class="seperator">
+          <br>
+          <br>
+          <br>
+
+
+          <!-- Displays 3 Recent Announcements-->
+          <p id="quoteTitle">Some Recent Announcements</p>
+          <!--Announcement One-->
+          <div id="Announce" class="Announce">
+           <p id="textOne" class="text"></p> 
+          </div> 
+          <br>
+          <!--Announcement Two-->
+          <div id="Announce" class="Announce">
+            <p id="textTwo" class="text"></p> 
+          </div>
+          <br>
+          <!--Announcement Three-->
+          <div id="Announce" class="Announce">
+           <p id="textThree" class="text"></p> 
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <hr class="seperator">
+          <br>
+          <br>
+          <br>
+
+          <!-- Encourages Students To Search For Announcements-->
+          <p id="quoteTitle">Search For Some Announcements</p>
+          <br>
+          <p id="homePageSearchText">A Whole World Of Announcements To Discover, Find The Ones Important To You!</p>
+          <br>
+          <h4 id="homePageSearch"><a href="studentOptionPage.html">Student Options 🔎</a></h4>
+          <br>
+          <br>
+          <br>
+          <br>
+          <hr class="seperator">
+          <br>
+          <br>
+          <br>
+        </div>  
+      </form>
+    </div>
+    <br>
+    <br>
+    <br>
+  </body>
+</hmtl>

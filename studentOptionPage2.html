@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<hmtl>
+
+  <!-- Linking all files and Documents + Tab Name -->
+  <head>
+    <title>My School News</title>
+    <link rel="stylesheet" type="text/css" href="studentOptionPage.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="studentOptionPage2.js"></script>
+  </head>
+
+  <!-- The White Part Of The Header -->
+  <body>
+    <div id="whiteBack">
+      <h1>My School News </h1>
+      <h4><a href="studentOptionPage.html">Student Options 🔎</a></h4>
+      <button class="btn"><a href="newsHomePage.html"><i class="fa fa-home"></i></a></button>
+    </div>
+
+    <!-- The Brown Navigation Of The Header -->    
+    <div>
+      <strong>
+        <ul>
+          <li><a id="firstNav" href="teacherLogin.html">Teacher Login</a></li>
+          <li><a id="secondNav" href="calendarPage.html">School Calender</a></li>
+        </ul>
+      </strong><br>
+    </div>
+
+    <!--The Progress Bar (Tells users which pages they've gone through, and can click to go back)-->
+    <div>
+      <h5><a href="newsHomePage.html">Home</a></h5>
+      <h5 id="spacing"> > </h5>
+      <h5><a href="studentOptionPage.html">Student Option Page</a></h5>
+      <hr>
+    </div>
+
+    <!--The Page Content-->
+    <div id="page">
+      <form>
+        <h3 id="title">Student Option Page</h3>
+        <div id="content">          
+          <label>Select Search Tags</label>
+
+          <!--The Grade Search Checkboxes-->
+
+          <br>
+          <input type="checkbox" id="gradeA" name="htmlStudentGrade" value="All" ><p>All</p>
+          <input type="checkbox" id="grade9" name="htmlStudentGrade" value="9" ><p>Grade 9</p>
+          <input type="checkbox" id="grade10" name="htmlStudentGrade" value="10" ><p>Grade 10</p>
+          <input type="checkbox" id="grade11" name="htmlStudentGrade" value="11" ><p>Grade 11</p>
+          <input type="checkbox" id="grade12" name="htmlStudentGrade" value="12" ><p>Grade 12</p>
+
+          <!--The Gender Search Checkboxes-->
+
+          <br>
+          <input type="checkbox" id="genderA" name="htmlStudentGender" value="All" ><p>All</p>
+          <input type="checkbox" id="genderM" name="htmlStudentGender" value="Male" >Male</p>
+          <input type="checkbox" id="genderF" name="htmlStudentGender" value="Female" ><p>Female</p>
+          
+          <!--The Club Search Checkboxes-->
+
+          <br>
+          <input id="clubAll" name="htmlStudentClub" type="checkbox" value="All" ><p>All</p>
+          <input id="clubMath" name="htmlStudentClub" type="checkbox" value="Math" ><p>Math Club</p>
+          <input id="clubHack" name="htmlStudentClub" type="checkbox" value="Hack" ><p>Hack Club</p>
+          <input id="clubDeca" name="htmlStudentClub" type="checkbox" value="Deca" ><p>DECA Club</p>
+          <input id="clubEco" name="htmlStudentClub" type="checkbox" value="Eco" ><p>Eco Club</p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <!--The Search and Cancel Buttom-->
+
+          <button id="submit">Cancel</button> 
+          <button id="submit" class="submit" onclick="getTeacherData()">Search</button>
+          
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>  
+      </form>
+    </div>
+    <br>
+    <br>
+    <br>
+  </body>
+</hmtl>

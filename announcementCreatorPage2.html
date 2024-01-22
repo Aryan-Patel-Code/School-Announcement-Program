@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<hmtl>
+
+  <!-- Linking all files and Documents + Tab Name -->
+  <head>
+    <title>My School News</title>
+    <link rel="stylesheet" type="text/css" href="announcementCreatorPage.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="announcementCreatorPage2.js"></script>
+  </head>
+
+
+  <!-- The White Part Of The Header -->
+  <body>
+    <div id="whiteBack">
+      <h1>My School News </h1>
+      <h4><a href="studentOptionPage.html">Student Options 🔎</a></h4>
+      <button class="btn"><i class="fa fa-home"></i></button>
+    </div>
+
+    <!-- The Brown Navigation Bar In The Header-->
+    <div> 
+      <strong>
+        <ul>
+           <li><a id="firstNav" href="teacherLogin.html">Teacher Login</a></li>
+          <li><a id="secondNav">School Calender</a></li>
+        </ul>
+      </strong><br>
+    </div>
+
+    <!--The Progress Bar (Tells users which pages they've gone through, and can click to go back)-->
+    <div>
+      <h5>Home</h5>
+      <h5 id="spacing"> > </h5>
+      <h5><a href="announcementCreatorPage.html">Teacher Announcement Creator Page</a></h5>
+      <hr>
+    </div>
+
+    <!--The Page-->
+    <div id="page">
+      <form>
+        <h3 id="title">Teacher Announcement Creator Page</h3>
+        <div id="content">
+
+          <!--The Announcement Text-->
+          <label>Announcement</label><br>
+          <textarea rows="9" cols="100" name="htmlTeacherAnnouncement" id="htmlTeacherAnnouncement"></textarea> <br>
+          
+          <h3>Select Search Tags</h3>
+
+          <!--The Grade Checkboxes-->
+            <input type="checkbox" id="gradeA" name="htmlTeacherGrade" value="All" ><p>All</p>
+            <input type="checkbox" id="grade9" name="htmlTeacherGrade" value="9" ><p>Grade 9</p>
+            <input type="checkbox" id="grade10" name="htmlTeacherGrade" value="10" ><p>Grade 10</p>
+            <input type="checkbox" id="grade11" name="htmlTeacherGrade" value="11" ><p>Grade 11</p>
+            <input type="checkbox" id="grade12" name="htmlTeacherGrade" value="12" ><p>Grade 12</p>
+
+          <!--The Gender Checkboxes-->
+
+            <br>
+            <select class="multiple_select" multiple=="multiple">
+              <option id="genderA"value="All">All</option>
+              <option id="genderM" value="Male">Male</option>
+              <option id="genderF" value="Female">Female</option>
+            </select>
+          
+          
+          <!--The Club Checkboxex-->
+
+            <br>
+            <input id="clubAll" name="htmlTeacherClub" type="checkbox" value="All" ><p>All</p>
+            <input id="clubMath" name="htmlTeacherClub" type="checkbox" value="Math" ><p>Math Club</p>
+            <input id="clubHack" name="htmlTeacherClub" type="checkbox" value="Hack" ><p>Hack Club</p>
+            <input id="clubDeca" name="htmlTeacherClub" type="checkbox" value="Deca" ><p>DECA Club</p>
+            <input id="clubEco" name="htmlTeacherClub" type="checkbox" value="Eco" ><p>Eco Club</p>
+         
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+          <!--The Submit/Cancel Buttons-->
+          <button id="submit">Cancel</button>
+          <button id="submit" class="submit" onclick="getData()">Submit</button>
+          <br><br> <button id="submit" onclick="checkArray()">Array</button>
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>  
+      </form>
+    </div>
+    <br>
+    <br>
+    <br>
+  </body>
+</hmtl>

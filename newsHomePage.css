@@ -1,0 +1,309 @@
+h1 {
+  color: #545454;
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 36px;
+  position: relative;
+  margin-top: 41px;
+  margin-bottom: 41px;
+  margin-left: 171px;
+  background: white;
+  background-clip: content-box;
+}
+
+form {
+position: relative;
+left: 171px;
+font-family: century-gothic, sans-serif;
+font-weight: 400;
+font-style: normal;
+background: #E8E8E8;
+margin-top: 17px;
+padding-top: 7px;
+width: 1007px;
+}
+
+#testtest {
+text-align: right;
+margin-right: 225px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+h2 {
+display: inline;
+font-family: "Lato", Times, serif;
+font-size: 24px;
+background: #9C756F;
+color: white;
+}
+
+ul {
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+padding-top: 14px;
+padding-bottom: 14px;
+background: #9C756F;
+background-origin: border-box;
+width:100%;
+font-weight: bold;    
+}
+
+li {
+display: inline;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+font-size: 22px;
+position: relative;
+margin-left: 0px;
+text-decoration: bold;  
+color: white;
+}
+
+#firstNav {
+margin-left: 171px;
+}
+
+#secondNav {
+margin-left: 25px
+}
+
+body {
+margin: 0;
+padding: 0;
+background: #F3F3F3;
+}
+
+h3 {
+position: relative;
+left: 171px;
+font-family: century-gothic, sans-serif;
+font-size: 24px;  
+font-weight: 400;
+font-style: normal;
+width: 1007px;
+margin-bottom: -10px;
+}
+
+h4 {
+color: 1C1C1C;
+display: inline-block;
+font-size: 22px;
+font-family: century-gothic, sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: right;
+margin-left: 477px;  
+background: #F3F3F3;
+padding: 3px;
+border-style: solid;
+border-width: 0.75px;
+}
+
+.btn {
+display: inline-block;
+background-color: white;
+border: none; 
+color: 1C1C1C; 
+font-size: 36px; 
+cursor: pointer; 
+text-align: right;
+vertical-align: right;
+margin-left: 25px;
+}
+
+h6 {
+font-size: 22px;
+text-align: center;
+margin-left: 0px;
+position: relative;
+left: -50px;
+}
+
+label {
+font-size: 20px;
+margin-right: 10px;
+}
+
+#content {
+position: relative;
+left: 50px;
+}
+
+input {
+display: inline-block;
+margin-left: 15px;
+}
+
+p {
+display: inline-block;
+margin-left: 0px;
+font-size: 18px;
+}
+
+#box {
+display: inline;
+}
+
+#submit {
+background-color: #9C756F; 
+border-style: solid;
+border-color: black;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+font-size: 28px;
+color: white;
+padding: 24px 64px;
+text-align: center;
+text-decoration: none;
+position: relative;
+left: 263px;
+}
+
+.submit {
+position: relative;
+margin-left: 100px;
+}
+
+#submit:hover {
+  background-color: #73534e;
+}
+
+#submit:active {
+  background-color: #73534e;
+  transform: translateY(4px);
+}
+
+textarea {
+border-style: solid;
+border-color: black;
+border-width: 3px;
+}
+
+h5 {
+margin-top: 10px;
+color: #9385A1;
+position:relative;
+left: 171px;
+font-size: 18px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+display: inline-block;
+}
+
+#spacing {
+margin-left: 20px;
+margin-right: 20px;
+}
+
+hr {
+  width:67%;
+  margin:0 auto;
+}
+
+#whiteBack {
+background: white;
+width: 100%;
+}
+
+#title {
+margin-left: 25px;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+.text {
+display: block;
+background: white;
+width: 500px;
+position: relative;
+left: 100px;
+padding-left: 10px;
+height: 180px;
+}
+
+#Announce {
+background: #9C756F;
+width: 100px;
+height: 180px; 
+display: none;
+}
+
+.Announce {
+  background: #9C756F;
+  width: 100px;
+  height: 180px; 
+  display: none;
+}
+
+.searchResult {
+  margin-right: 15px;
+}
+
+#sorryMes {
+display: block;
+font-size: 22px;
+text-align: center;
+margin-left: 0px;
+position: relative;
+left: -50px;
+}
+
+#quotes {
+  margin-top: 0px;
+  background: #595959;
+  padding: 15px;
+  font-size: 28px;
+  color: white;
+  position: relative;
+  left: 150px;
+  width: 550px;;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-family: "Lato", Times, serif;
+  font-weight: 500;
+}
+
+#quoteTitle {
+  position: relative;
+  left: -20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 0px;
+}
+
+#QOD {
+  background-color: #F3F3F3;
+}
+
+.seperator {
+  position: relative;
+  left: -50px;
+}
+
+#homePageSearch {
+  color: 1C1C1C;
+  display: inline-block;
+  font-size: 22px;
+  font-family: century-gothic, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: right;
+  margin-left: 350px;  
+  background: #F3F3F3;
+  padding: 3px;
+  border-style: solid;
+  border-width: 0.75px;
+  }
+  
+  #homePageSearchText {
+    position: relative;
+    left: 100px;
+  }
+  

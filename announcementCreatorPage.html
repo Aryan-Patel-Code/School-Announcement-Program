@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<hmtl>
+
+  <!-- Linking all files and Documents + Tab Name -->
+  <head>
+    <title>My School News</title>
+    <link rel="stylesheet" type="text/css" href="announcementCreatorPage.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="announcementCreatorPage.js"></script>
+  </head>
+
+
+  <!-- The White Part Of The Header -->
+  <body onload="getAnnouncement()">
+    <div id="whiteBack">
+      <h1>My School News</h1>
+      <h4><a href="studentOptionPage.html">Student Options 🔎</a></h4>
+      <button class="btn"><a href="newsHomePage.html"><i class="fa fa-home"></i></a></button>
+    </div>
+
+    <!-- The Brown Navigation Bar In The Header-->
+    <div> 
+      <strong>
+        <ul>
+           <li><a id="firstNav" href="teacherLogin.html">Teacher Login</a></li>
+          <li><a id="secondNav" href="calendarPage.html">School Calender</a></li>
+        </ul>
+      </strong><br>
+    </div>
+
+    <!--The Progress Bar (Tells users which pages they've gone through, and can click to go back)-->
+    <div>
+      <h5><a href="newsHomePage.html">Home</a></h5>
+      <h5 id="spacing"> > </h5>
+      <h5><a href="announcementCreatorPage.html">Teacher Announcement Creator Page</a></h5>
+      <hr>
+    </div>
+
+    <!--The Page-->
+    <div id="page">
+      <form>
+        <h3 id="title">Teacher Announcement Creator Page</h3>
+        <div id="content">
+
+          <!--The Announcement Text-->
+          <label>Announcement</label><br>
+          <textarea rows="9" cols="100" name="htmlTeacherAnnouncement" id="htmlTeacherAnnouncement"></textarea> <br>
+          
+          <h3>Select Search Tags</h3>
+
+          <!--The Grade Checkboxes-->
+            <input type="radio" name="htmlTeacherGrade" value="All" required><p>All</p>
+            <input type="radio" name="htmlTeacherGrade" value="9" required><p>Grade 9</p>
+            <input type="radio" name="htmlTeacherGrade" value="10" required><p>Grade 10</p>
+            <input type="radio" name="htmlTeacherGrade" value="11" required><p>Grade 11</p>
+            <input type="radio" name="htmlTeacherGrade" value="12" required><p>Grade 12</p>
+
+          <!--The Gender Checkboxes-->
+
+            <br>
+            <input type="radio" name="htmlTeacherGender" value="All" required><p>All</p>
+            <input type="radio" name="htmlTeacherGender" value="Male" required>Male</p>
+            <input type="radio" name="htmlTeacherGender" value="Female" required><p>Female</p>
+          
+          
+          <!--The Club Checkboxex-->
+
+            <br>
+            <input name="htmlTeacherClub" type="radio" value="All" required><p>All</p>
+            <input name="htmlTeacherClub" type="radio" value="Math" required><p>Math Club</p>
+            <input name="htmlTeacherClub" type="radio" value="Hack" required><p>Hack Club</p>
+            <input name="htmlTeacherClub" type="radio" value="Deca" required><p>DECA Club</p>
+            <input name="htmlTeacherClub" type="radio" value="Eco" required><p>Eco Club</p>
+         
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+          <!--The Submit/Cancel Buttons-->
+          <button id="submit">Cancel</button>
+          <button id="submit" class="submit" onclick="getData()">Submit</button>
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>  
+      </form>
+    </div>
+    <br>
+    <br>
+    <br>
+  </body>
+</hmtl>
