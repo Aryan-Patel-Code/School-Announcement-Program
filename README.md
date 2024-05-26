@@ -22,7 +22,7 @@ To install and set up the project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/school-announcement-program.git
+   git clone https://github.com/aryanp05/school-announcement-program.git
    ```
 2. **Navigate to the project directory:**
    ```bash
