@@ -16,6 +16,22 @@ Welcome to the School Announcement Program! This web application is designed to 
 - **CSS**
 - **JavaScript**
 
+## Screenshots
+
+
+   ![Login Page](login-page.png)
+   ![Create Announcement](create-announcement.png)
+   ![View Announcements](view-announcements.png)
+
+## Usage
+
+Once you have the project open in your web browser, you can:
+
+- **Login as a Teacher:** Use the login page to enter your credentials and access the announcement creation features.
+- **Create and Post Announcements:** Navigate to the announcement creation page to draft and post your messages.
+- **View Announcements:** Students can view the announcements on the homepage or through the targeted announcement sections.
+- **Interact with the Calendar:** Check the school calendar for upcoming events and important dates.
+
 ## Installation
 
 To install and set up the project locally, follow these steps:
@@ -30,27 +46,10 @@ To install and set up the project locally, follow these steps:
    ```
 3. **Open `newsHomePage.html` in your preferred web browser:**
    ```bash
-   open index.html
+   open newsHomePage.html
    ```
 
 Note: Since the project uses HTML, CSS, and JavaScript, no additional setup or server configuration is required.
-
-## Usage
-
-Once you have the project open in your web browser, you can:
-
-- **Login as a Teacher:** Use the login page to enter your credentials and access the announcement creation features.
-- **Create and Post Announcements:** Navigate to the announcement creation page to draft and post your messages.
-- **View Announcements:** Students can view the announcements on the homepage or through the targeted announcement sections.
-- **Interact with the Calendar:** Check the school calendar for upcoming events and important dates.
-
-## Screenshots
-
-
-   ![Login Page](login-page.png)
-   ![Create Announcement](create-announcement.png)
-   ![View Announcements](view-announcements.png)
-
 
 ## License
 
