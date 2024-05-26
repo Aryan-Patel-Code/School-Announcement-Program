@@ -28,7 +28,7 @@ To install and set up the project locally, follow these steps:
    ```bash
    cd school-announcement-program
    ```
-3. **Open `index.html` in your preferred web browser:**
+3. **Open `newsHomePage.html` in your preferred web browser:**
    ```bash
    open index.html
    ```
