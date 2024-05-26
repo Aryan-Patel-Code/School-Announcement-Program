@@ -47,10 +47,9 @@ Once you have the project open in your web browser, you can:
 ## Screenshots
 
 
-   ![Login Page](screenshots/login-page.png)
-   ![Create Announcement](screenshots/create-announcement.png)
-   ![View Announcements](screenshots/view-announcements.png)
-   ![School Calendar](screenshots/school-calendar.png)
+   ![Login Page](login-page.png)
+   ![Create Announcement](create-announcement.png)
+   ![View Announcements](view-announcements.png)
 
 
 ## License
